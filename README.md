@@ -6,9 +6,6 @@
 <a href="https://travis-ci.com/bashovski/stampede">
   <img src="https://travis-ci.com/bashovski/stampede.svg?token=changethis_laterz&branch=master" alt="Build Status" />
 </a>
-<a href="https://codecov.io/gh/bashovski/stampede">
-  <img src="https://codecov.io/gh/bashovski/stampede/branch/master/graph/badge.svg?token=changelater" />
-</a>
 <a href="https://img.shields.io/badge/license-MIT-%23339933"><img src="https://img.shields.io/badge/license-MIT-%23339933" alt="License"></a>
 </p>
 
