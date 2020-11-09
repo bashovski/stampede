@@ -1,0 +1,13 @@
+sudo: required
+
+services:
+  - docker
+
+before_install:
+  - export >> .env
+  - sed -i -e 's/declare -x //g' .env
+  - docker build -t bashovski/stampede .
+
+script:
+  - docker run --env-file .env bashovski/stampede test --filter "(No DB)" tests/ --unstable --allow-read --allow-net --allow-run --allow-env
+
