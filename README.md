@@ -688,4 +688,4 @@ export default UsersFactory;
 - Stampede is an open-source framework licensed under the MIT License.
 
 ## Author
-Anur Basic (anurbasic01@outlook.com)
+Anur Basic
