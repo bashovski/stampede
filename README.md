@@ -4,7 +4,7 @@
 
 <p align="center">
 <a href="https://travis-ci.com/bashovski/stampede">
-  <img src="https://travis-ci.com/bashovski/stampede.svg?token=changethis_laterz&branch=master" alt="Build Status" />
+  <img src="https://travis-ci.com/bashovski/stampede.svg?token=gvKx1eGwSBqqzCwcmAZz&branch=master" alt="Build Status" />
 </a>
 <a href="https://img.shields.io/badge/license-MIT-%23339933"><img src="https://img.shields.io/badge/license-MIT-%23339933" alt="License"></a>
 </p>

@@ -8,6 +8,6 @@ export { v4 } from "https://deno.land/std/uuid/mod.ts";
 export { assertEquals } from 'https://deno.land/std@0.70.0/testing/asserts.ts';
 export { oakCors } from "https://deno.land/x/cors/mod.ts";
 export * as bcrypt from 'https://deno.land/x/bcrypt/mod.ts';
-export * as Random from 'https://deno.land/x/random@1.1.2/Random.js';
+export * as Random from 'https://deno.land/x/random@v1.1.2/Random.js';
 export { createHash } from 'https://deno.land/std/hash/mod.ts';
 export * as moment from 'https://cdn.skypack.dev/moment';
