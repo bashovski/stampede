@@ -90,7 +90,7 @@ You can normally run the UI serve script once you have dependencies installed fo
 ./scripts/run # From root project directory
 ``` 
 
-- By default, the server will be accessible at: ```http://localhost:80/api/v1/```, <br/>
+- By default, the server will be accessible at: ```http://localhost:80/```, <br/>
 and the UI will be accessible from ```http://localhost:8080```
 
 - Now, as you have both the server and client up and running, 
