@@ -1,7 +1,7 @@
 import { v4 } from "https://deno.land/std/uuid/mod.ts";
 import { DataTypes } from 'https://deno.land/x/denodb/mod.ts';
 import moment from 'https://cdn.skypack.dev/moment';
-import Random from 'https://deno.land/x/random@v1.1.2/Random.js';
+import Random from 'https://deno.land/x/random@1.1.2/Random.js';
 import Mail, { MailSenderRecipient, MailOpts } from '../lib/Mail.ts';
 import Model from '../lib/Model.ts';
 import User from "./User.ts";
