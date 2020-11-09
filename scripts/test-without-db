@@ -1,0 +1,2 @@
+#!/bin/sh
+deno test --filter "(No DB)" tests/ --unstable --allow-read --allow-net --allow-run --allow-env

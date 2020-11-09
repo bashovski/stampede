@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
+$color-quincy: #544327;
+$color-sunflower: #E7BF22;
+$color-limeade: #859A01;
+$color-gulf-blue: #011762;
+
+h1 {
+	color: $color-quincy;
+}
+
+button, .button {
+	background-image: linear-gradient($color-limeade, $color-gulf-blue);
+	color: #fff;
+	text-decoration: none;
+	padding: 1em 2em;
+	border-radius: 50px;
+	transition: 500ms;
+	border: none;
+	cursor: pointer;
+
+	&:focus {
+		outline: none;
+		opacity: 0.85;
+	}
+
+	&:hover {
+		opacity: 0.7;
+	}
+}
+
+@import 'auth_form';
+@import 'datepicker';

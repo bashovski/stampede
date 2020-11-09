@@ -1,0 +1,3 @@
+#!/bin/sh
+echo "Running migrations..."
+node ./db/migration-runner.js

@@ -1,0 +1,40 @@
+{
+  "name": "stampede",
+  "version": "1.0.0",
+  "description": "change thi",
+  "main": "server.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "moment": "^2.29.1",
+    "pg": "^8.4.1",
+    "sequelize": "^6.3.5",
+    "umzug": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "./scripts/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bashovski/stampede.git"
+  },
+  "keywords": [
+    "deno",
+    "framework",
+    "typescript",
+    "rest",
+    "rest-api",
+    "eco-system",
+    "starter"
+  ],
+  "author": "Anur Basic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bashovski/stampede/issues"
+  },
+  "homepage": "https://github.com/bashovski/stampede#readme"
+}

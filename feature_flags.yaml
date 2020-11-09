@@ -1,0 +1,13 @@
+# Easily toggle feature flags by modifying the values.
+# There's a CRON job which runs each minute to check for changes.
+
+featureFlags:
+  checkForChanges: true # If true, server will reload feature flags each minute.
+  accountVerifications: true
+  locales:
+    - en-UK
+  clearSessions: true
+  datadogEnabled: false
+  mailsEnabled: false
+  runMigrationsOnBoot: true
+  runFactoriesOnBoot: false

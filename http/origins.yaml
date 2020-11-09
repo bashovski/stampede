@@ -1,0 +1,3 @@
+# Whitelist of origins
+allowed:
+    - "http://localhost:8080"

@@ -1,0 +1,323 @@
+_type: export
+__export_format: 4
+__export_date: 2020-10-24T23:32:28.933Z
+__export_source: insomnia.desktop.app:v2020.4.1
+resources:
+  - _id: req_47d03fca99d84ae58401b9cfca3c8930
+    parentId: fld_bcfd687a7648437dbd9323078c9777f5
+    modified: 1603582289452
+    created: 1600647065602
+    url: https://api.sendgrid.com/v3/mail/send
+    name: Send Email
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: "{}"
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_d30afa651b164031a1dc19b31017fa23
+      - name: Authorization
+        value: Bearer <your-api-key>
+        description: ""
+        id: pair_7153364a63ff481cae593720cee45ddf
+    authentication: {}
+    metaSortKey: -1600647065602
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_bcfd687a7648437dbd9323078c9777f5
+    parentId: fld_509a0ca13c234e4bb7a8fbdaaf3cc579
+    modified: 1600647061250
+    created: 1600647061250
+    name: Sendgrid
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1600647061250
+    _type: request_group
+  - _id: fld_509a0ca13c234e4bb7a8fbdaaf3cc579
+    parentId: wrk_296c1ebfac6a4d018d46265fcd9c1281
+    modified: 1600626863403
+    created: 1600626863403
+    name: Integrations
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1600626863403
+    _type: request_group
+  - _id: wrk_296c1ebfac6a4d018d46265fcd9c1281
+    parentId: null
+    modified: 1599395386907
+    created: 1599395386907
+    name: Stampede
+    description: ""
+    scope: null
+    _type: workspace
+  - _id: req_9307650e8b024b1ab6dbd4d4e6533381
+    parentId: fld_a3cfd49b0d82457d9dafffc7067d205b
+    modified: 1600634014726
+    created: 1600626879975
+    url: https://http-intake.logs.datadoghq.com/v1/input
+    name: Send Log
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: "{}"
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_427241a1981845d5ae8bd3ecb7ecdcdd
+      - name: DD-API-KEY
+        value: brbr
+        description: ""
+        id: pair_aa1a7fd9b3364845b400baaa32b6f8a9
+    authentication: {}
+    metaSortKey: -1600626879975
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_a3cfd49b0d82457d9dafffc7067d205b
+    parentId: fld_509a0ca13c234e4bb7a8fbdaaf3cc579
+    modified: 1600626872294
+    created: 1600626872294
+    name: Datadog
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1600626872294
+    _type: request_group
+  - _id: req_12ed4c4daf124aa09e5a7604c8f8c4a7
+    parentId: fld_4b527c52a6a444099c1b104838fd6955
+    modified: 1603582250938
+    created: 1602965002877
+    url: "{{baseUrl}}/users/password/reset"
+    name: Reset Password
+    description: ""
+    method: PATCH
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"email": "bashovski@example.org",
+        	"oldPassword": "NewPassword1337",
+        	"newPassword": "NewerPassword1337"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_0961a73c711e4bbc8f1ad1f76c307f47
+    authentication: {}
+    metaSortKey: -1602965002877
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_4b527c52a6a444099c1b104838fd6955
+    parentId: wrk_296c1ebfac6a4d018d46265fcd9c1281
+    modified: 1599395395426
+    created: 1599395395426
+    name: Authentication
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1599395395426
+    _type: request_group
+  - _id: req_8c60657c35b3491cab8c8b4d2069d783
+    parentId: fld_4b527c52a6a444099c1b104838fd6955
+    modified: 1602960640563
+    created: 1601421885815
+    url: "{{baseUrl}}/users/JDJ4/verify"
+    name: Verify Account
+    description: ""
+    method: PATCH
+    body:
+      mimeType: application/json
+      text: ""
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_33f57cc79bc84b8c85a37af40aae7580
+    authentication: {}
+    metaSortKey: -1601421885815
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_eeec5455abec46c584af4497d3e26b45
+    parentId: fld_4b527c52a6a444099c1b104838fd6955
+    modified: 1600519829088
+    created: 1600519812758
+    url: "{{baseUrl}}/users/logout"
+    name: Logout
+    description: ""
+    method: DELETE
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1600519812758
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_5448320909d84f9a9103c6ee3848bdaf
+    parentId: fld_4b527c52a6a444099c1b104838fd6955
+    modified: 1600303369985
+    created: 1600303360619
+    url: "{{ baseUrl }}/users/iam"
+    name: IAM
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1600303360619
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_9cddd6b9bb8641069347d390a6e79a8a
+    parentId: fld_4b527c52a6a444099c1b104838fd6955
+    modified: 1603582225217
+    created: 1599395433789
+    url: "{{ baseUrl }}/users/register"
+    name: Register
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"username": "bashovski",
+        	"email": "bashovski@example.org",
+        	"password": "NewPassword1337",
+        	"dateOfBirth": "10-10-1990Z00:00:00"
+        }
+    parameters: []
+    headers:
+      - id: pair_5d0512160762474b9f67ed5d85dcd37e
+        name: Content-Type
+        value: application/json
+    authentication: {}
+    metaSortKey: -1599395433789
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_e6cdaf732b394674b73a1134f4cd47c4
+    parentId: fld_4b527c52a6a444099c1b104838fd6955
+    modified: 1603582188956
+    created: 1599399312281
+    url: "{{ baseUrl }}/users/login"
+    name: Login
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"email": "bashovski@example.org",
+        	"password": "NewPassword1337"
+        }
+    parameters: []
+    headers:
+      - id: pair_5d0512160762474b9f67ed5d85dcd37e
+        name: Content-Type
+        value: application/json
+    authentication: {}
+    metaSortKey: -1599135320905
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: env_38ded79e4996774cd5071c3d414684e0d7a4131d
+    parentId: wrk_296c1ebfac6a4d018d46265fcd9c1281
+    modified: 1599395453733
+    created: 1599395387153
+    name: Base Environment
+    data:
+      baseUrl: http://localhost:80
+    dataPropertyOrder:
+      "&":
+        - baseUrl
+    color: null
+    isPrivate: false
+    metaSortKey: 1599395387153
+    _type: environment
+  - _id: jar_38ded79e4996774cd5071c3d414684e0d7a4131d
+    parentId: wrk_296c1ebfac6a4d018d46265fcd9c1281
+    modified: 1602970289496
+    created: 1599395387159
+    name: Default Jar
+    cookies:
+      - key: stampede-cookie
+        value: bPboZZQCDBamB3Wl8p9O3Q==
+        expires: 2020-10-21T00:12:59.000Z
+        domain: localhost
+        path: /
+        httpOnly: true
+        hostOnly: true
+        creation: 2020-09-14T21:09:42.511Z
+        lastAccessed: 2020-09-20T00:12:59.314Z
+        id: "6131426132473277"
+      - key: stampede-cookie
+        value: leX4x+kUqvxWLGGwCnipRQ==
+        expires: 2020-11-17T22:31:29.000Z
+        domain: localhost
+        path: /
+        httpOnly: true
+        hostOnly: true
+        creation: 2020-09-20T20:05:51.080Z
+        lastAccessed: 2020-10-17T21:31:29.496Z
+        id: "14982800953475883"
+    _type: cookie_jar
+  - _id: spc_63a733ded4e94709953115a2785e74c5
+    parentId: wrk_296c1ebfac6a4d018d46265fcd9c1281
+    modified: 1599395386912
+    created: 1599395386912
+    fileName: Stampede Eco-system
+    contents: ""
+    contentType: yaml
+    _type: api_spec
