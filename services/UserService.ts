@@ -63,7 +63,7 @@ class UserService extends Service {
         return {
             cookie,
             response : new HttpResponse(201, {
-                message: 'successfully registered user',
+                message: 'Successfully registered user',
             })
         };
     }
@@ -111,7 +111,7 @@ class UserService extends Service {
         return {
             cookie,
             response : new HttpResponse(200, {
-                message: 'successfully logged in'
+                message: 'Successfully logged in'
             })
         };
     }
