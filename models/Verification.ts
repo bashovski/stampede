@@ -81,7 +81,7 @@ class Verification extends Model {
          */
         const sender: MailSenderRecipient = {
             name: 'Stampede Bot',
-            email: 'anurbasic01@outlook.com'
+            email: 'youremail@yourdomain.com'
         }
 
         const recipient: MailSenderRecipient = {

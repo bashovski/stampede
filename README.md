@@ -38,7 +38,7 @@
 - Autowired CRON jobs
 - Unit tests with bootstrappers
 - Insomnia and Swagger doc for existing REST API endpoints
-- and much more...
+- and many more...
 
 ## Requirements
 
