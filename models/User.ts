@@ -1,5 +1,5 @@
 import moment from 'https://cdn.skypack.dev/moment';
-import { DataTypes } from 'https://deno.land/x/denodb/mod.ts';
+import { DataTypes } from 'https://raw.githubusercontent.com/Otomatto/denodb/master/mod.ts';
 import Config from '../lib/Config.ts';
 import Model from '../lib/Model.ts';
 import Validator, { ValidationRules } from '../lib/Validator.ts';

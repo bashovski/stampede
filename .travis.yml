@@ -9,5 +9,5 @@ before_install:
   - docker build -t bashovski/stampede .
 
 script:
-  - docker run --env-file .env bashovski/stampede test --filter "(No DB)" tests/ --unstable --no-remote --allow-read --allow-net --allow-run --allow-env
+  - docker run --env-file .env bashovski/stampede test --filter "(No DB)" tests/ --unstable --allow-read --allow-net --allow-run --allow-env
 

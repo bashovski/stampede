@@ -1,4 +1,4 @@
-import { Model as DbModel } from 'https://deno.land/x/denodb/mod.ts';
+import { Model as DbModel } from 'https://raw.githubusercontent.com/Otomatto/denodb/master/mod.ts';
 
 class Model extends DbModel {
     static selectExcept(...fields: Array<string>) {

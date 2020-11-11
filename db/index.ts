@@ -1,4 +1,4 @@
-import { Database } from 'https://deno.land/x/denodb/mod.ts';
+import { Database } from 'https://raw.githubusercontent.com/Otomatto/denodb/master/mod.ts';
 import FeatureFlags from '../lib/FeatureFlags.ts';
 import Config from '../lib/Config.ts';
 

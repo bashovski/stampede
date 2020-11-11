@@ -2,7 +2,7 @@
 export { parse } from 'https://deno.land/std/encoding/yaml.ts';
 export * as log from "https://deno.land/std/log/mod.ts";
 export { cron } from 'https://deno.land/x/deno_cron/cron.ts';
-export { Database, DataTypes, Model } from 'https://deno.land/x/denodb/mod.ts';
+export { Database, DataTypes, Model } from 'https://raw.githubusercontent.com/Otomatto/denodb/master/mod.ts';
 export { Application } from 'https://deno.land/x/oak/mod.ts';
 export { v4 } from "https://deno.land/std/uuid/mod.ts";
 export { assertEquals } from 'https://deno.land/std@0.70.0/testing/asserts.ts';

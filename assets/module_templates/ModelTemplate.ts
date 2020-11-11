@@ -1,4 +1,4 @@
-import { DataTypes } from 'https://deno.land/x/denodb/mod.ts';
+import { DataTypes } from 'https://raw.githubusercontent.com/Otomatto/denodb/master/mod.ts';
 import Model from '../lib/Model.ts';
 
 class __replace_me__ extends Model {

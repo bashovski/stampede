@@ -106,7 +106,7 @@ feel free to read how Stampede works and check out some of the tutorials and blo
 - Let's take a look at an example of a well-structured model:
 
 ```typescript
-import { DataTypes } from 'https://deno.land/x/denodb/mod.ts';
+import { DataTypes } from 'https://raw.githubusercontent.com/Otomatto/denodb/master/mod.ts';
 import Model from '../lib/Model.ts';
 
 class Video extends Model {
