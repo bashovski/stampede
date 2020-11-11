@@ -7,6 +7,7 @@
   <img src="https://travis-ci.com/bashovski/stampede.svg?token=gvKx1eGwSBqqzCwcmAZz&branch=master" alt="Build Status" />
 </a>
 <a href="https://img.shields.io/badge/license-MIT-%23339933"><img src="https://img.shields.io/badge/license-MIT-%23339933" alt="License"></a>
+<a href="https://img.shields.io/github/contributors/bashovski/stampede?color=%23011762"><img src="https://img.shields.io/github/contributors/bashovski/stampede?color=%23011762" alt="Contributors"></a>
 </p>
 
 # Stampede 🦕
@@ -287,9 +288,10 @@ class PostService extends Service {
      */
     static async index(data : any): Promise<ServiceResult> {
         return {
-            // const posts: Array<Post> = Post. @todo Update this part of docs
+            const posts: Array<Post> = await Post.all();
             response : new HttpResponse(200, {
                 message: 'Hello friend!',
+                posts
             })
         };
     }

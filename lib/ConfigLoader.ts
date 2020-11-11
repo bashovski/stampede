@@ -19,7 +19,6 @@ class ConfigLoader extends Loader {
 
         /**
          * Define environment variables
-         * @todo improve throw reason
          */
         let envVars : any = {};
         for(const configVarKey in mergedConfigVars) {
