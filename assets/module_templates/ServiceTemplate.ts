@@ -5,10 +5,9 @@ class __replace_me__Service extends Service {
 
     /**
      * @summary Index of all __replace_me__ REST resources
-     * @param data
-     * @returns object
+     * @returns {ServiceResult}
      */
-    static async index(data : any): Promise<ServiceResult> {
+    static async index(): Promise<ServiceResult> {
         return {
             response : new HttpResponse(200, {
                 message: 'Hello friend!',
