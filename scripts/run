@@ -1,2 +1,2 @@
 #!/bin/sh
-deno run --v8-flags=--stack-trace-on-illegal --reload --allow-net --allow-read --allow-env --allow-run --unstable --log-level info server.ts
+deno run --v8-flags=--stack-trace-on-illegal --allow-net --allow-read --allow-env --allow-run --unstable --log-level info server.ts

@@ -88,7 +88,7 @@ npm run serve
 
 You can normally run the UI serve script once you have dependencies installed for it:
 ```shell script
-./scripts/run # From root project directory
+./scripts/ui # From root project directory
 ``` 
 
 - By default, the server will be accessible at: ```http://localhost:80/```, <br/>
