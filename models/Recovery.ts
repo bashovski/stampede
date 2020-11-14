@@ -1,5 +1,5 @@
 import { v4 } from "https://deno.land/std/uuid/mod.ts";
-import { DataTypes } from 'https://raw.githubusercontent.com/Otomatto/denodb/master/mod.ts';
+import { DataTypes } from 'https://raw.githubusercontent.com/eveningkid/denodb/abed3063dd92436ceb4f124227daee5ee6604b2d/mod.ts';
 import Random from 'https://deno.land/x/random@v1.1.2/Random.js';
 import Mail, { MailSenderRecipient, MailOpts } from '../lib/Mail.ts';
 import Model from '../lib/Model.ts';
@@ -44,7 +44,7 @@ class Recovery extends Model {
         if (!user) return null;
 
         let [ recovery ] = await Recovery.where({
-            userId
+            'user_id': userId
         }).take(1).get();
 
         const id = v4.generate();

@@ -1,4 +1,4 @@
-import { DataTypes } from 'https://raw.githubusercontent.com/Otomatto/denodb/master/mod.ts';
+import { DataTypes } from 'https://raw.githubusercontent.com/eveningkid/denodb/abed3063dd92436ceb4f124227daee5ee6604b2d/mod.ts';
 import { v4 } from "https://deno.land/std/uuid/mod.ts";
 import { createHash } from 'https://deno.land/std/hash/mod.ts';
 import moment from 'https://cdn.skypack.dev/moment';

@@ -1,5 +1,5 @@
 import { v4 } from "https://deno.land/std/uuid/mod.ts";
-import { DataTypes } from 'https://raw.githubusercontent.com/Otomatto/denodb/master/mod.ts';
+import { DataTypes } from 'https://raw.githubusercontent.com/eveningkid/denodb/abed3063dd92436ceb4f124227daee5ee6604b2d/mod.ts';
 import moment from 'https://cdn.skypack.dev/moment';
 import Random from 'https://deno.land/x/random@v1.1.2/Random.js';
 import Mail, { MailSenderRecipient, MailOpts } from '../lib/Mail.ts';
@@ -49,7 +49,7 @@ class Verification extends Model {
         if (!user) return null;
 
         let [ verification ] = await Verification.where({
-            userId
+            user_id: userId
         }).take(1).get();
 
         const id = v4.generate();
@@ -69,7 +69,7 @@ class Verification extends Model {
                 expiresAt
             });
         else await this.where({
-            userId
+            user_id: userId
         }).update({
             expiresAt
         });

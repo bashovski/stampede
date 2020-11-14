@@ -12,10 +12,10 @@ class __replace_me__Controller extends Controller {
      * @summary Handles index request
      * @param ctx
      */
-    static async index(ctx: any): Promise<void> {
+    public static async index(ctx: any): Promise<void> {
         try {
 
-            const { response, error } : any = await __replace_me__Service.index();
+            const { response, error }: any = await __replace_me__Service.index();
             (response || error).send(ctx.response);
 
         } catch(error) {

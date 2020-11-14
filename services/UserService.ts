@@ -122,7 +122,7 @@ class UserService extends Service {
      */
     public static async IAM(token: string): Promise<ServiceResult> {
 
-        const [ session ]: [ Session|any ] = await Session.select('userId').where({ token }).take(1).get();
+        const [ session ]: [ Session|any ] = await Session.select('user_id').where({ token }).take(1).get();
         let [ user ]: [ User|any ] = await User.selectExcept('password', 'email').where({ id: session.userId }).take(1).get();
 
         user = User.redefineResultProperties(user, 'password', 'email');
@@ -172,7 +172,7 @@ class UserService extends Service {
         }
 
         const [ verification ]: [ Verification|any ] = await Verification.where({
-            userId,
+            user_id: userId,
             token: verificationToken
         }).take(1).get();
 
