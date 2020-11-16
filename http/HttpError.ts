@@ -7,8 +7,8 @@ import HttpResponse from './HttpResponse.ts';
  */
 class HttpError extends HttpResponse {
     constructor(
-        statusCode : Number,
-        body : Object,
+        statusCode : number,
+        body : Object|null = null,
         headers : Array<any> | null = null,
         type : string | null = null
     ) {
