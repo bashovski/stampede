@@ -680,6 +680,7 @@ export default UsersFactory;
 - Inside ```/assets``` directory, there are resources both for Swagger and for Insomnia.
 
 ## Tutorials, blogs, tips and tricks
+- https://dev.to/bashovski/building-apps-with-stampede-47i
 - Work in progress, will be updated soon.
 
 ## Contributing
