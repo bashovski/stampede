@@ -1,5 +1,5 @@
-import { Application } from '../deps.ts';
-import { oakCors } from "../deps.ts";
+import { Application } from 'https://deno.land/x/oak/mod.ts';
+import { oakCors } from "https://deno.land/x/cors/mod.ts";
 import YamlParser from "../lib/YamlParser.ts";
 
 /**

@@ -1,4 +1,4 @@
-import { cron } from '../deps.ts';
+import { cron } from 'https://deno.land/x/deno_cron/cron.ts';
 import Session from '../models/Session.ts';
 import Logger from '../lib/Logger.ts';
 import Db from '../db/index.ts';

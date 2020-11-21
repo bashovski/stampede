@@ -1,4 +1,4 @@
-import { bcrypt } from '../deps.ts';
+import * as bcrypt from 'https://deno.land/x/bcrypt/mod.ts';
 
 class CredentialsEncryption {
     static async encryptPassword(password : string) {

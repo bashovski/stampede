@@ -1,4 +1,4 @@
-import { Router as OakRouter } from '../deps.ts';
+import { Router as OakRouter } from 'https://deno.land/x/oak/mod.ts';
 
 class Router extends OakRouter {
 	constructor() {

@@ -1,5 +1,5 @@
-import { DataTypes } from '../deps.ts';
-import { v4 } from "../deps.ts";
+import { DataTypes } from 'https://raw.githubusercontent.com/eveningkid/denodb/abed3063dd92436ceb4f124227daee5ee6604b2d/mod.ts';
+import { v4 } from "https://deno.land/std/uuid/mod.ts";
 
 /**
  * @summary Interface of all allowed validation opts.

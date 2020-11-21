@@ -107,7 +107,7 @@ feel free to read how Stampede works and check out some of the tutorials and blo
 - Let's take a look at an example of a well-structured model:
 
 ```typescript
-import { DataTypes } from '../deps.ts';
+import { DataTypes } from 'https://raw.githubusercontent.com/eveningkid/denodb/abed3063dd92436ceb4f124227daee5ee6604b2d/mod.ts';
 import Model from '../lib/Model.ts';
 
 class Video extends Model {
@@ -670,7 +670,7 @@ export default UsersFactory;
 - Stampede at the moment only provides password encryption (utilizes Bcrypt).
 
 ## Dependencies
-- Stampede uses ```deps.ts``` as a pivot module to achieve centralization of dependencies and avoid inconsistency of their sources and their respective versions.
+- ```deps.ts``` file is still an option to have centralised module for dependencies, although at the moment it is not being used.
 
 ## Deployment
 - Currently, Stampede comes with Docker and TravisCI configuration, made for more fluid collaboration on GitHub.

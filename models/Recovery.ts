@@ -1,6 +1,6 @@
-import { v4 } from '../deps.ts';
-import { DataTypes } from '../deps.ts';
-import { Random } from '../deps.ts';
+import { v4 } from "https://deno.land/std/uuid/mod.ts";
+import { DataTypes } from 'https://raw.githubusercontent.com/eveningkid/denodb/abed3063dd92436ceb4f124227daee5ee6604b2d/mod.ts';
+import Random from 'https://deno.land/x/random@v1.1.2/Random.js';
 import Mail, { MailSenderRecipient, MailOpts } from '../lib/Mail.ts';
 import Model from '../lib/Model.ts';
 import User from "./User.ts";

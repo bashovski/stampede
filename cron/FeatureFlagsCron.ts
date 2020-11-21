@@ -1,4 +1,4 @@
-import { cron } from '../deps.ts';
+import { cron } from 'https://deno.land/x/deno_cron/cron.ts';
 import Logger from '../lib/Logger.ts';
 import FeatureFlagReader from "../lib/FeatureFlagReader.ts";
 import FeatureFlags from "../lib/FeatureFlags.ts";

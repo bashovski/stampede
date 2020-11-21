@@ -1,4 +1,4 @@
-import { Database } from '../deps.ts';
+import { Database } from 'https://raw.githubusercontent.com/eveningkid/denodb/abed3063dd92436ceb4f124227daee5ee6604b2d/mod.ts';
 import FeatureFlags from '../lib/FeatureFlags.ts';
 import Config from '../lib/Config.ts';
 
