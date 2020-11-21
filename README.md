@@ -427,7 +427,7 @@ const routes: Array<RouteConfig | any> = [
 - In order to provide stability and consistency to the codebase, it was the only correct choice, as deno-nessie migration library uses different terminology.
 
 - Each migration should have ```up()``` and ```down()``` methods, and the naming should just follow ASCII ordering for migrations to be executed.
-- To toggle migrations at server boot-up, update feature flag ```runMigrationsOnBoot``` in ```feature_flags.yaml```.
+- To toggle migrations at the server boot-up, update feature flag ```runMigrationsOnBoot``` in ```feature_flags.yaml```.
 - Please note that the migrations won't be executed in case the server is started manually, without using CLI or ```/scripts/run``` script.
 - DenoDB and Sequelize's Umzug use very similar terminology, hence consistency is guaranteed.
 
