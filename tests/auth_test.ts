@@ -3,7 +3,7 @@
  * @test
  */
 
-import { assertEquals } from 'https://deno.land/std@0.70.0/testing/asserts.ts';
+import { assertEquals } from '../deps.ts';
 import Config from '../lib/Config.ts';
 import UserService from '../services/UserService.ts';
 import BootstrapDb from './bootstrapper/db_bootstrapper.ts';

@@ -1,4 +1,4 @@
-import { Model as DbModel } from 'https://raw.githubusercontent.com/eveningkid/denodb/abed3063dd92436ceb4f124227daee5ee6604b2d/mod.ts';
+import { Model as DbModel } from '../deps.ts';
 
 class Model extends DbModel {
     static selectExcept(...fields: Array<string>) {

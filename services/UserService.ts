@@ -1,4 +1,4 @@
-import { v4 } from "https://deno.land/std/uuid/mod.ts";
+import { v4 } from '../deps.ts';
 
 import Service, { ServiceResult } from './Service.ts';
 import User, { PASSWORD_PATTERN } from '../models/User.ts';

@@ -3,11 +3,11 @@
  * @test
  */
 
-import { assertEquals } from 'https://deno.land/std@0.70.0/testing/asserts.ts';
+import { assertEquals } from '../deps.ts';
 import Validator, { ValidationRules } from '../lib/Validator.ts';
 import User from '../models/User.ts';
 import BootstrapDb from './bootstrapper/db_bootstrapper.ts';
-import { v4 } from "https://deno.land/std/uuid/mod.ts";
+import { v4 } from '../deps.ts';
 
 Deno.test({
     name: 'Validator - expected, correct values (No DB)',

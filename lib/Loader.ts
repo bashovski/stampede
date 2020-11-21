@@ -1,4 +1,4 @@
-import { walk } from 'https://deno.land/std/fs/mod.ts';
+import { walk } from '../deps.ts';
 
 class Loader {
     static async loadModules(directory: string) {

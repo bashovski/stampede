@@ -10,7 +10,7 @@ import CronLoader from './lib/CronLoader.ts';
 import ModelLoader from './lib/ModelLoader.ts';
 import RouteLoader from './lib/RouteLoader.ts';
 import HttpOriginReader from './http/HttpOriginReader.ts';
-import { Application } from 'https://deno.land/x/oak/mod.ts';
+import { Application } from './deps.ts';
 import FeatureFlagReader from './lib/FeatureFlagReader.ts';
 import FactoryLoader from './lib/FactoryLoader.ts';
 

@@ -1,4 +1,4 @@
-import { parse } from 'https://deno.land/std/encoding/yaml.ts';
+import { parse } from '../deps.ts';
 
 class YamlParser {
 

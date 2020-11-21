@@ -1,4 +1,4 @@
-import * as log from "https://deno.land/std/log/mod.ts";
+import { log } from '../deps.ts';
 import Config from './Config.ts';
 import FeatureFlags from "./FeatureFlags.ts";
 
