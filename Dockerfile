@@ -12,7 +12,7 @@ WORKDIR /usr/app
 COPY ./.env.example .env
 
 COPY ./deps.ts .
-RUN deno cache deps.ts
+RUN deno cache deps.ts --unstable
 
 COPY . .
 
