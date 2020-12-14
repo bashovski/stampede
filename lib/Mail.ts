@@ -72,7 +72,7 @@ class Mail {
         }
 
         if (opts.sendAt) {
-            if (opts.sendAt > (new Date().getTime() + (72 * 60 * 60 * 100)))
+            if (opts.sendAt > (new Date().getTime() + (72 * 60 * 60 * 1000)))
                 throw 'Emails cannot be scheduled more than 72h in advance';
 
             this.sendAt = opts.sendAt;
