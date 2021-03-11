@@ -312,7 +312,7 @@ allowed:
 
 ## Mails
 
-- Stampede comes with its own Mail module. It utilizes SendGrid to provide easily customizable dynamic templates and make mail sending easier than never before. 
+- Stampede comes with its own Mail module. It utilizes SendGrid to provide easily customizable dynamic templates and make mail sending easier than ever before. 
 
 ```javascript
 import Mail, { MailSenderRecipient } from './lib/Mail.ts';
