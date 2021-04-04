@@ -21,7 +21,7 @@ class HttpOriginReader {
         const { allowed } = parser.getParsedContent() || [];
 
         if (!allowed || !allowed.length)
-            console.log('[warning] You haven\'t specified any allowed origin.');
+            console.log('[warning] You haven\'t specified any allowed origins.');
 
         app.use(
             oakCors({
