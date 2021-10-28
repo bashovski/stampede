@@ -47,7 +47,7 @@ paths:
       tags:
         - "auth"
       summary: "Login as an existing user"
-      description: ""
+      description: "Login as an existing user"
       operationId: "loginUser"
       consumes:
         - "application/json"
@@ -72,7 +72,7 @@ paths:
       tags:
         - "auth"
       summary: "Fetch current user's info"
-      description: ""
+      description: "Fetch current user's info"
       operationId: "IAM"
       consumes:
         - "application/json"
@@ -88,7 +88,7 @@ paths:
       tags:
         - "auth"
       summary: "Log out the user"
-      description: ""
+      description: "Log out the user"
       operationId: "logoutUser"
       consumes:
         - "application/json"
