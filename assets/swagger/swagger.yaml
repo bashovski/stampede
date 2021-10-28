@@ -24,7 +24,7 @@ paths:
       tags:
         - "auth"
       summary: "Register a new user"
-      description: ""
+      description: "Register a new user"
       operationId: "registerUser"
       consumes:
         - "application/json"
@@ -104,7 +104,7 @@ paths:
       tags:
         - "auth"
       summary: "Verify account"
-      description: ""
+      description: "Verify account"
       operationId: "verifyAccount"
       consumes:
         - "application/json"
@@ -130,7 +130,7 @@ paths:
       tags:
         - "auth"
       summary: "Reset user's password"
-      description: ""
+      description: "Reset user's password"
       operationId: "resetUserPassword"
       consumes:
         - "application/json"
@@ -157,7 +157,7 @@ paths:
       tags:
         - "auth"
       summary: "Require recovery code for account recovery process"
-      description: ""
+      description: "Require recovery code for account recovery process"
       operationId: "requireRecoveryCode"
       consumes:
         - "application/json"
@@ -182,7 +182,7 @@ paths:
       tags:
         - "auth"
       summary: "Require recovery code for account recovery process"
-      description: ""
+      description: "Require recovery code for account recovery process"
       operationId: "recover"
       consumes:
         - "application/json"
