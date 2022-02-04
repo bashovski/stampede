@@ -23,9 +23,9 @@
 - Modified Koa Router utilization - easy-to-use Routing, HTTP request handlers, etc.
 - Deployment configuration which is production-ready
 - View layer written in Vue.js - includes auth pages, guards, etc.
-- DenoDB ORM along with PostgreSQL
+- DenoDB ORM that supports PostgreSQL
 - Pre-written migrations with Umzug and Sequelize (there's raw SQL as well)
-- Feature Flags - toggle which features should be running even during server runtime
+- Feature Flags - toggle which features should be running during server runtime (configurable even during runtime)
 - Autowired config - adding and consuming environment variables kept elegant
 - Multi-level logger with DataDog support (allows usage of facets and tags)
 - Custom Mail module/internal micro-library compatible with SendGrid
