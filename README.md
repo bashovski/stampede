@@ -341,13 +341,14 @@ await mail.from(sender).to(recipient).send();
 - Both ```.from()``` and ```.to()``` methods support a single MailSenderRecipient and an array of MailSenderRecipients. 
 - Whilst using dynamic templates, ```subject``` and ```content``` opts would be overriden.
 - When passing a timestamp to ```sendAt (serialized: send_at)```, make sure that the value is a UNIX timestamp (integer) and its unit is in seconds (not ms which is by default).
-- Usage of Mail module requires ```SENDGRID_API_KEY``` environment variable to be present. It can be retrieved by invoking ```Config.getSendGridApiKey()```.
+- Usage of Mail module requires ```SENDGRID
+``` environment variable to be present. It can be retrieved by invoking ```Config.getSendGridApiKey()```.
 
 ## Logger
 
 - Stampede's logger extends already very powerful Deno's logger. It's been primarily extended to achieve different types of log transport, such as rolling log and integration with external log monitoring services like DataDog. This logger easily allows log transport to DataDog.
 
-- In order to instantiate log sending to DataDog, you'll need to assign environment variable ```SENDGRID_API_KEY``` a correct API key as a value.
+- In order to instantiate log sending to DataDog, you'll need to assign environment variable ```DD_API_KEY``` a correct API key as a value.
 - The logger is easily customizable and it allows process/log facets to be sent along with the log. They become very useful in complex processes where comprehensive, informative instrumentation is very important to easily maintain, modify and improve code to become bug-free.
 
 ```javascript
