@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "dotenv": "^8.2.0",
-    "moment": "^2.29.1",
+    "moment": "^2.29.4",
     "pg": "^8.4.1",
     "sequelize": "^6.3.5",
     "umzug": "^2.3.0"
